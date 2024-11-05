@@ -1,17 +1,13 @@
 import streamlit as st
-from dotenv import load_dotenv
-import os
 from groq import Groq
 import json
 import pandas as pd
 from time import sleep
 import re
 from pathlib import Path
-import uuid
 import glob
 from dataclasses import dataclass
 from typing import List
-from datetime import datetime
 
 @dataclass
 class Template:
